@@ -1,0 +1,586 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url('../font/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../font/inter-OFL.txt') format('truetype');
+}
+
+
+.wreper {
+    position: relative;
+}
+
+.logo {
+    font-family: "Lobster";
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    margin-top: -36px;
+    margin-left: 390px;
+}
+
+
+.social_media {
+    float: right;
+    overflow: hidden;
+    margin-left: 260px;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    line-height: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+
+}
+
+
+nav ul {
+    overflow: hidden;
+}
+
+
+nav ul li {
+    float: left;
+    margin-left: 40px;
+}
+
+
+nav ul li a {
+    font-family: "Inter";
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+nav ul li a:hover {
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    background-color: rgba(204, 38, 27, 0.1);
+}
+
+
+.conten {
+    position: relative;
+    
+}
+
+.kotak {
+    position: relative;
+    width: 620px;
+    height: 640px;
+    background-color: #E7FAFE;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 40px 0px 0px 40px;
+    z-index: 1;
+}
+
+
+.book {
+    width: 156px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.book img {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+.book h3 {
+    float: left;
+    position: absolute;
+    top: -8px;
+    left: 40px;
+}
+
+.book h2 {
+    width: 520px;
+    height: 154px;
+    position: absolute;
+    top: 30px;
+    font-family: "Inter";
+    font-size: 60px;
+}
+
+.book p {
+    width: 520px;
+    height: 56px;
+    position: absolute;
+    top:220px;
+    line-height: 24px;
+}
+
+.time {
+    width: 139px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position:absolute;
+    left: 50px;
+    top:380px;
+}
+
+
+.time ul li img {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+}
+
+ .time ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: 50px;
+}
+
+
+.pisau {
+    width: 139px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    position:absolute;
+    left: 200px;
+    top:380px;
+}
+
+
+.pisau ul li img {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.pisau ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: -3px;
+    left: 55px;
+}
+
+.foto ul li img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 520px;
+    left: 50px;
+}
+
+
+.foto ul li h3 {
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 509px;
+    left: 120px;
+    
+}
+
+
+.foto ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    position: absolute;
+    top: 534px;
+    left: 120px;
+}
+
+
+.play {
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #000000;
+    position: absolute;
+    top: 516px;
+    left: 350px;
+}
+
+
+.play ul li p {
+    font-family: "Inter";
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 9px;
+}
+
+
+.play ul li a img {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 130px;
+    top: 23px;
+}
+
+
+
+.wings {
+
+    width: 982px;
+    height: 640px;
+    margin-top: -640px;
+    margin-left: 700px;
+}
+
+
+.wings img {
+    border-radius: 0 40px 40px 0;
+}
+
+
+
+.categori {
+    width: 238px;
+    height: 58px;
+    margin-top:162px;
+    margin-left: 80px;
+}
+
+.categori h2 {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.view {
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #E7FAFE;
+    margin-top: -95px;
+    margin-left: 1075px;
+}
+
+.view h3 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 29px;
+}
+
+
+.isicategory {
+    width: 1390px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+
+
+
+.kep li {
+    position: relative;
+    float: left;
+    margin-right: 79px;
+    text-align: 40px;
+    margin-top: 100px;
+}
+
+li .gambar1 {
+    float: left;
+    margin-left: -40px;
+    position: absolute;
+    width: 180px;
+    height: 152px;
+}
+
+.kep li span {
+    font-family: "Inter";
+    font-size: 18px;
+    display: block;
+    width: 180px;
+    text-align:center;
+    display: block;
+    position: absolute;
+    top: 85px;
+    
+    
+}
+
+li .gambar2 {
+    margin-top: -60px;
+}
+
+
+li .gambar3{
+    position: absolute;
+    top: -70px;
+}
+
+.testy {
+    width: 526px;
+    height: 58;
+    margin:auto;
+    text-align: center;
+    margin-top: 245px;
+}
+
+.simple h2 {
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.warning {
+    width: 706px;
+    height: 56px;
+    margin-left: -83px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.warning p {
+    font-family: "Inter";
+    margin-top: -5px;
+}
+
+
+.contenerr {
+    width: 1400px;
+    height: 420px;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+
+
+.testyMenu li {
+    position: relative;
+    float: left;
+    margin-right: 90px;
+}
+
+li .bacground {
+    float: left;
+    position: absolute;
+    left: -40px;
+    top: -50px;
+    width: 400px;
+    height: 434px;
+}
+
+li .gambar {
+    position: relative;
+    margin-top: -15px;
+    margin-left: -25px;
+}
+
+li .bacgroundLike {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: -230px;
+    margin-left: 270px;
+}
+
+li .bacgroundLike .like{
+    margin-top: -35px;
+    margin-left: 8px;
+}
+
+.testyMenu li span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    display: block;
+    width: 352px;
+    height: 64px;
+    margin-top: -130px;
+    margin-left: 15px;
+}
+
+
+li .clock {
+    position: absolute;
+    top: 339px;
+    left: -23px;
+}
+
+
+
+
+
+.bagian2 {
+    width: 1400px;
+    height: 420px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.testyMenu2 li {
+    position: relative;
+    float: left;
+    margin-right: 90px;
+}
+
+li .bacground2 {
+    float: left;
+    position: absolute;
+    left: -40px;
+    top: -50px;
+    width: 400px;
+    height: 434px;
+}
+
+li .gambar {
+    position: relative;
+    margin-top: -15px;
+    margin-left: -25px;
+}
+
+li .bacgroundLike2 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: -230px;
+    margin-left: 270px;
+}
+
+li .bacgroundLike2 .like2{
+    margin-top: -35px;
+    margin-left: 8px;
+}
+
+.testyMenu2 li span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    display: block;
+    width: 352px;
+    height: 64px;
+    margin-top: -130px;
+    margin-left: 15px;
+}
+
+
+li .clock2 {
+    position: absolute;
+    top: 339px;
+    left: -23px;
+}
+
+.bagian3 {
+    width: 1400px;
+    height: 420px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.testyMenu3 li {
+    position: relative;
+    float: left;
+    margin-right: 90px;
+}
+
+li .bacground3 {
+    float: left;
+    position: absolute;
+    left: -40px;
+    top: -50px;
+    width: 400px;
+    height: 434px;
+}
+
+li .gambar {
+    position: relative;
+    margin-top: -15px;
+    margin-left: -25px;
+}
+
+li .bacgroundLike3 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: -230px;
+    margin-left: 270px;
+}
+
+li .bacgroundLike3 .like3{
+    margin-top: -35px;
+    margin-left: 8px;
+}
+
+.testyMenu3 li span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    display: block;
+    width: 352px;
+    height: 64px;
+    margin-top: -130px;
+    margin-left: 15px;
+}
+
+
+li .clock3 {
+    position: absolute;
+    top: 339px;
+    left: -23px;
+}
+
+
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
